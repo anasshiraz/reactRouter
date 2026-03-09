@@ -61,7 +61,10 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <Link to="/" className="hover:underline hover:text-orange-700">
+                  <Link
+                    to="/"
+                    className="hover:underline hover:text-orange-700"
+                  >
                     Discord
                   </Link>
                 </li>
@@ -73,12 +76,18 @@ export default function Footer() {
               </h2>
               <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
-                  <Link to="#" className="hover:underline hover:text-orange-700">
+                  <Link
+                    to="#"
+                    className="hover:underline hover:text-orange-700"
+                  >
                     Privacy Policy
                   </Link>
                 </li>
                 <li>
-                  <Link to="#" className="hover:underline hover:text-orange-700">
+                  <Link
+                    to="#"
+                    className="hover:underline hover:text-orange-700"
+                  >
                     Terms &amp; Conditions
                   </Link>
                 </li>

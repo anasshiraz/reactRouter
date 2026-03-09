@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import tree from "../../assets/tree.jpg";
 import tree2 from "../../assets/tree2.jpg";
 
-
 export default function Home() {
   return (
     <div className="mx-auto w-full max-w-7xl">
@@ -35,24 +34,16 @@ export default function Home() {
         </div>
 
         <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-          <img
-            className="w-auto"
-            src={tree}
-            alt="image1"
-          />
+          <img className="w-auto" src={tree} alt="image1" />
         </div>
       </aside>
 
       <div className="grid  place-items-center sm:mt-20 outline-none">
-        <img
-          className="w-auto"
-          src={tree2}
-          alt="image2"
-        />
+        <img className="w-auto" src={tree2} alt="image2" />
       </div>
 
       <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">
-        Lorem Ipsum Yojo
+        React-Router
       </h1>
     </div>
   );

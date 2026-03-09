@@ -12,7 +12,7 @@ function LogIn() {
 
         <form  className="flex flex-col gap-4">
           <div>
-            <label className="block text-gray-600 text-sm mb-1">
+            <label className="block text-gray-600 text-sm mb-1 font-bold">
               Email
             </label>
             <input
@@ -24,7 +24,7 @@ function LogIn() {
           </div>
 
           <div>
-            <label className="block text-gray-600 text-sm mb-1">
+            <label className="block text-gray-600 text-sm mb-1 font-bold">
               Password
             </label>
             <input

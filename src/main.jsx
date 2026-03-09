@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
-import Home from './components/Home/home.jsx'
 import About from './components/About/about.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Layout from './layout.jsx'
@@ -11,6 +10,7 @@ import User from './components/User/User.jsx'
 import GitHub from './components/GitHub/GitHub.jsx'
 import { githubInfo } from './components/Github/GithubLoader.js'
 import LogIn from './components/LogIn/LogIn.jsx'
+import Home from './components/Home/Home.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
