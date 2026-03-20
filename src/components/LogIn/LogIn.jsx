@@ -38,6 +38,7 @@ function LogIn() {
           <button
             type="submit"
             className="bg-orange-700 text-white mt-2 py-2 rounded-lg font-semibold hover:bg-orange-600 transition duration-300"
+            onClick={(e)=> e.preventDefault()}
           >
             Login
           </button>
