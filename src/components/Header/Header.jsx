@@ -32,8 +32,8 @@ export default function Header() {
           </div>
 
           {/* Navigation Menu */}
-          <div className="flex flex-col lg:flex-row items-start lg:items-center w-full lg:w-auto lg:order-1 mt-4 lg:mt-0">
-            <ul className="flex flex-col gap-2 font-medium lg:flex-row lg:space-x-8">
+          <div className="w-full lg:flex lg:items-center lg:w-auto lg:order-1">
+            <ul className="flex flex-wrap justify-center lg:justify-start mt-4 lg:mt-0 font-medium lg:flex-row lg:space-x-8">
               <li>
                 <NavLink
                   to="/"
